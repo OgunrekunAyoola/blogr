@@ -127,7 +127,7 @@ background-image: url(../src/assets/images/bg-pattern-intro-desktop.svg),  var(-
 }
 
 .title{
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   font-weight: 800;
   font-family: var(--ff-overpass);
   color: var(--neutral-clr-700);
@@ -136,12 +136,19 @@ background-image: url(../src/assets/images/bg-pattern-intro-desktop.svg),  var(-
 }
 
 .purpose {
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 400;
   font-family: var(--ff-overpass);
   color: var(--neutral-clr-700);
-  line-height: 1.7;
+  line-height: 1.2;
   max-width: 52.5ch;
   letter-spacing: 0.025em;
 }
 
+.phones{
+  background-image: url(./assets/images/bg-pattern-circles.svg), var(--bg-middle-section);
+   background-position: bottom -6.5rem left -13.5rem, top 0 left 0;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 7rem;
+  border-top-right-radius: 8rem;
+}
