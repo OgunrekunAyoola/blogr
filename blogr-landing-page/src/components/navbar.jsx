@@ -37,7 +37,7 @@ const Nav = () => {
         </div>
         <div className="sm:flex sm:flex-1 sm:justify-end sm:gap-8 sm:items-center">
           <a
-            className="ua-login block font-ubuntu font-bold text-[var(--neutral-clr-400)] opacity-80 hover:opacity-100"
+            className="ua-login block font-ubuntu font-bold sm:text-[var(--neutral-clr-400)] opacity-80 hover:opacity-100"
             href="#login"
           >
             Login

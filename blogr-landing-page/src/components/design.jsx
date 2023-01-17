@@ -34,8 +34,8 @@ const Editor = () => {
 						</p>
 					</div>
 				</div>
-				<div className="items-center justify-center">
-					<picture className="design-img w-full item-center">
+				<div className="design-img items-center justify-center">
+					<picture className=" w-full item-center">
 						<source
 							srcSet={EditorDesktop}
 							media="(min-width: 768px)"

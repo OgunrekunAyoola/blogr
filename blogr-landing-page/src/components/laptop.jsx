@@ -3,9 +3,9 @@ import devices from "../assets/images/illustration-laptop-mobile.svg";
 
 const Laptop = () => {
 	return (
-		<div className="flex flex-row pt-[100px]">
-			<div className="">
-				<picture className="laptop-img w-full item-center">
+		<div className="flex flex-col md:flex-row pt-[100px]">
+			<div className="laptop-img items-center justify-center">
+				<picture className=" w-full item-center">
 					<source
 						srcSet={Device}
 						media="(min-width: 768px)"
@@ -17,7 +17,7 @@ const Laptop = () => {
 					/>
 				</picture>
 			</div>
-			<div className="items-center h-auto">
+			<div className="items-center py-20 h-auto w-auto md:w-[50%] p-6 flex flex-shrink-0 flex-col gap-5 text-center sm:text-start sm:items-center">
 				<div>
 					<h4 className="title">Free, open, simple</h4>
 					<p className="purpose">
