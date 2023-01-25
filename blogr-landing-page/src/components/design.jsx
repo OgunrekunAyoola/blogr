@@ -4,15 +4,15 @@ import EditorMobile from "../assets/images/illustration-editor-mobile.svg";
 
 const Editor = () => {
 	return (
-		<div className="flex flex-col align-center justify-center mx-[7vw]">
+		<div className="flex flex-col amimate-slidedown align-center justify-center mx-[7vw]">
 			<div className="pt-7 w-auto">
 				<h2 className=" align-center justify-center mt-10 w-full text-center text-4xl">
 					Designed for the future
 				</h2>
 			</div>
 
-			<div className="flex flex-col-reverse md:flex-row py-10">
-				<div className=" w-auto md:w-[50%] p-6 flex flex-shrink-0 flex-col gap-5 text-center sm:text-start sm:items-center">
+			<div className="flex flex-col-reverse sm:flex-row py-10">
+				<div className="p-6 flex flex-shrink-0 flex-col gap-10 text-center sm:text-start sm:items-center">
 					<div>
 						<h3 className="title">Introducing an extensible editor.</h3>
 						<p className="purpose">
@@ -24,7 +24,7 @@ const Editor = () => {
 							change the looks of a blog.
 						</p>
 					</div>
-					<div> 
+					<div>
 						<h3 className="title">Robust content management.</h3>
 						<p className="purpose">
 							Flexible content management enables users to easily move through

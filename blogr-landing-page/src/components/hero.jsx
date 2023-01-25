@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className=" mt-[7.375rem] mb-[8rem]">
+    <section className="mt-[7.375rem] mb-[8rem] ">
       <div className="article text-center pb-6">
         <h1 className="title-1 font-overpass text-[2.25rem] sm:text-[3.875rem] font-bold text-[var(--neutral-clr-400)] tracking-[-0.0325em] mx-2 sm:mx-0">
           A modern publishing platform
